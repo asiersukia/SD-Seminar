@@ -19,7 +19,7 @@ tableextension 50100 "CSD ResourceExt" extends Resource
         {
             Caption = 'Resource Type';
             OptionMembers = "Internal","External";
-            OptionCaption = 'Internal,External'
+            OptionCaption = 'Internal,External';
         }
 
         field(50102; "CSD maximum Participants"; Integer)
