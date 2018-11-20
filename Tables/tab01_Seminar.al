@@ -82,4 +82,33 @@ table 50101 "CSD Seminar"
 
         }
     }
+
+    var
+        SeminarSetup: Record "CSD Seminar Setup";
+        //CommentLine: Record "CSD Seminar Comment Line";
+        Seminar: Record "CSD Seminar";
+        GenProdPostingGroup: Record "Gen. Product Posting Group";
+        NoSeriesMgt: Codeunit NoSeriesManagement;
+
+    trigger OnInsert()
+    begin
+
+    end;
+
+    trigger OnModify()
+    begin
+
+    end;
+
+    trigger OnDelete()
+    begin
+
+    end;
+
+    trigger OnRename()
+    begin
+
+    end;
+
 }
+
