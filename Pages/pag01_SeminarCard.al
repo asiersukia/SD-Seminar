@@ -31,7 +31,7 @@ page 50101 "CSD Seminar Card"
                 field("Seminar Duration"; "Seminar Duration")
                 {
                 }
-                field("Minumum Participants"; "Minumum Participants")
+                field("Minumum Participants"; "Minimum Participants")
                 {
                 }
                 field("Maximum Participants"; "Maximum Participants")

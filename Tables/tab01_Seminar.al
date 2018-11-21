@@ -37,9 +37,9 @@ table 50101 "CSD Seminar"
             Caption = 'Seminar Duration';
             DecimalPlaces = 0 : 1;
         }
-        field(40; "Minumum Participants"; Integer)
+        field(40; "Minimum Participants"; Integer)
         {
-            Caption = 'Minumum Participants';
+            Caption = 'Minimum Participants';
         }
         field(50; "Maximum Participants"; Integer)
         {

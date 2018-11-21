@@ -21,7 +21,7 @@ page 50102 "CSD Seminar List"
                 field(Name; Name) { }
                 field("Seminar Duration"; "Seminar Duration") { }
                 field("Seminar Price"; "Seminar Price") { }
-                field("Minumum Participants"; "Minumum Participants") { }
+                field("Minumum Participants"; "Minimum Participants") { }
                 field("Maximum Participants"; "Maximum Participants") { }
             }
         }
