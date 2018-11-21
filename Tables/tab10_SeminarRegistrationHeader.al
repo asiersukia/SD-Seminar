@@ -227,7 +227,7 @@ table 50110 "CSD Seminar Reg. Header"
         field(22; Comment; Boolean)
         {
             Caption = 'Comment';
-            CalcFormula = Exist ("CSD Seminar Comment Line" where ("Table Name" = const ("Seminar Registration Header"),
+            CalcFormula = Exist ("CSD Seminar Comment Line" where ("Table Name" = const ("Seminar Registration"),
                                                               "No." = Field ("No.")));
             Editable = false;
             FieldClass = FlowField;
@@ -338,7 +338,7 @@ table 50110 "CSD Seminar Reg. Header"
             ERROR(Text006, SeminarCharge.TableCaption);
 
         SeminarCommentLine.RESET;
-        SeminarCommentLine.SETRANGE("Table Name", SeminarCommentLine."Table Name"::"Seminar Registration Header");
+        SeminarCommentLine.SETRANGE("Table Name", SeminarCommentLine."Table Name"::"Seminar Registration");
         SeminarCommentLine.SETRANGE("No.", "No.");
         SeminarCommentLine.deleteALL;
     end;
