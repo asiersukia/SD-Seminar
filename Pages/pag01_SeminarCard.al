@@ -87,6 +87,7 @@ page 50101 "CSD Seminar Card"
                     PromotedIsBig = true;
                     PromotedOnly = true;
                 }
+                // >> Lab 8 1-2
                 action("Ledger Entries")
                 {
                     Caption = 'Leder Entries';
