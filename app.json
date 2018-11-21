@@ -2,7 +2,7 @@
   "id": "1c635826-60b9-43fe-8cca-54c1b7b4458c",
   "name": "SD Seminar",
   "publisher": "D.E. Veloper",
-  "brief": "Nav Extension test 02",
+  "brief": "A New Seminar module for managing seminars",
   "description": "",
   "version": "1.0.0.0",
   "privacyStatement": "",
@@ -15,6 +15,7 @@
   "screenshots": [],
   "platform": "13.0.0.0",
   "application": "13.0.0.0",
+  "features": ["TranslationFile"],
   "idRange": {
     "from": 50100,
     "to": 50149
